@@ -8,17 +8,27 @@
 
 import UIKit
 import Gifu
+import AudioPlayer
 
 class ViewController: UIViewController {
     
     @IBOutlet weak var cassette: AnimatableImageView!
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Log: \(cassette!)")
-        cassette.animateWithImage(named: "CassetteDemo.gif")
-
-        cassette.startAnimatingGIF()
+//        cassette.animateWithImage(named: "CassetteDemo.gif")
+//        cassette.startAnimatingGIF()
+        do {
+            let audio = try AudioPlayer(fileName: "PodnaAurPodni.mp3")
+            audio.play()
+            print("audio: \(audio)")
+        } catch let error as NSError{
+            print(error)
+        }
+        
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

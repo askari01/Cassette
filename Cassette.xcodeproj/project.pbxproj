@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		36ECA96C1DA62AB4005F5207 /* CassetteDemo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36ECA96B1DA62AB4005F5207 /* CassetteDemo.gif */; };
+		36F41C4A1DA8FA230048F663 /* PodnaAurPodni.aac in Resources */ = {isa = PBXBuildFile; fileRef = 36F41C491DA8FA230048F663 /* PodnaAurPodni.aac */; };
+		36F41C4C1DA900210048F663 /* PodnaAurPodni.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 36F41C4B1DA900210048F663 /* PodnaAurPodni.mp3 */; };
 		36FB70B21DA4DDE100E6C5C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FB70B11DA4DDE100E6C5C1 /* AppDelegate.swift */; };
 		36FB70B41DA4DDE100E6C5C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FB70B31DA4DDE100E6C5C1 /* ViewController.swift */; };
 		36FB70B71DA4DDE100E6C5C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36FB70B51DA4DDE100E6C5C1 /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 /* Begin PBXFileReference section */
 		35A0C3CFBDDE767AFA31556F /* Pods-Cassette.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cassette.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cassette/Pods-Cassette.release.xcconfig"; sourceTree = "<group>"; };
 		36ECA96B1DA62AB4005F5207 /* CassetteDemo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CassetteDemo.gif; sourceTree = "<group>"; };
+		36F41C491DA8FA230048F663 /* PodnaAurPodni.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = PodnaAurPodni.aac; sourceTree = "<group>"; };
+		36F41C4B1DA900210048F663 /* PodnaAurPodni.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PodnaAurPodni.mp3; sourceTree = "<group>"; };
 		36FB70AE1DA4DDE100E6C5C1 /* Cassette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassette.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36FB70B11DA4DDE100E6C5C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36FB70B31DA4DDE100E6C5C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +77,8 @@
 				36FB70BD1DA4DDE100E6C5C1 /* Info.plist */,
 				36FB70C51DA4FB4700E6C5C1 /* walkman.gif */,
 				36ECA96B1DA62AB4005F5207 /* CassetteDemo.gif */,
+				36F41C491DA8FA230048F663 /* PodnaAurPodni.aac */,
+				36F41C4B1DA900210048F663 /* PodnaAurPodni.mp3 */,
 			);
 			path = Cassette;
 			sourceTree = "<group>";
@@ -161,6 +167,8 @@
 				36FB70BC1DA4DDE100E6C5C1 /* LaunchScreen.storyboard in Resources */,
 				36FB70C61DA4FB4700E6C5C1 /* walkman.gif in Resources */,
 				36FB70B91DA4DDE100E6C5C1 /* Assets.xcassets in Resources */,
+				36F41C4C1DA900210048F663 /* PodnaAurPodni.mp3 in Resources */,
+				36F41C4A1DA8FA230048F663 /* PodnaAurPodni.aac in Resources */,
 				36ECA96C1DA62AB4005F5207 /* CassetteDemo.gif in Resources */,
 				36FB70B71DA4DDE100E6C5C1 /* Main.storyboard in Resources */,
 			);

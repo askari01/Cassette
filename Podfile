@@ -6,5 +6,6 @@ target 'Cassette' do
 
   # Pods for Cassette
   pod 'Gifu'
-  
+  pod 'AudioPlayerSwift'
+
 end

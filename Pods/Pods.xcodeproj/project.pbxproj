@@ -7,24 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0975EE320E2004A91885AD2715035D08 /* Pods-Cassette-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16982E0A99CEEF88A73C057A9C1BD86A /* Pods-Cassette-dummy.m */; };
-		0E27C4FCAC3D70A2F74C638C3A8D17F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		1787B8A5BD6117CD3F62BD73DD4678A9 /* AnimatableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB723F5CD7999E883AF486DFCC1877F /* AnimatableImageView.swift */; };
-		4B5395BF642293539B3263BD8236DC15 /* ImageSourceHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEC3A21D864FB6B5D9B4D831B7D9AA4 /* ImageSourceHelpers.swift */; };
-		4D6F8F922DC96683C8FAAFAA38DCB340 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648BAC27B9656E2ED493D48CA63837F0 /* ArrayExtension.swift */; };
-		66F11181200C1355360E5E93A88C979A /* AnimatedFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90C2F6D0681EAA36C035865BFDA9AB2 /* AnimatedFrame.swift */; };
-		68E3445F8894E6941F34B3B640F379F4 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA8C4D8ED7F3F53921209B8171CB461 /* Animator.swift */; };
-		6E8C6BEE3B4ACC59EB8164E74BDE471B /* Gifu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD90084FBBD51496B47F080F70A33C74 /* Gifu-dummy.m */; };
-		7DD11E83C38AD897DF8DDA6A784F8FD4 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E684883ABC9E64101D054F5FD2963E0 /* UIImageExtension.swift */; };
+		1787B8A5BD6117CD3F62BD73DD4678A9 /* AnimatableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA43261EC766749CAC3AB4B48B27A0D /* AnimatableImageView.swift */; };
+		2BE83F5F0FCD7C9D90409DCF34E8D86B /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725E11DF52F22E340E115A6D4A7BEF38 /* AudioPlayer.swift */; };
+		4B5395BF642293539B3263BD8236DC15 /* ImageSourceHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6B55B816373C9C60E59A08E0CA4DE9 /* ImageSourceHelpers.swift */; };
+		4D6F8F922DC96683C8FAAFAA38DCB340 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E17BCFFB60C09982694976791FC2AE2 /* ArrayExtension.swift */; };
+		66F11181200C1355360E5E93A88C979A /* AnimatedFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF6F98833F7A064BC1950D6D29B5A7C /* AnimatedFrame.swift */; };
+		68E3445F8894E6941F34B3B640F379F4 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87771F8725FF3DEF06D5BF43D5F0993 /* Animator.swift */; };
+		6A3FE52125AB28F5A1374A473EDFFF39 /* AudioPlayerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 221BDA6FB407E0058648787EAF19979E /* AudioPlayerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E8C6BEE3B4ACC59EB8164E74BDE471B /* Gifu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76256E14278EE3E9278B0A0AC93636B7 /* Gifu-dummy.m */; };
+		79EEACB7981E66A683F1C69582A044D9 /* Pods-Cassette-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16982E0A99CEEF88A73C057A9C1BD86A /* Pods-Cassette-dummy.m */; };
+		7DD11E83C38AD897DF8DDA6A784F8FD4 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5900D64F44117A6D86F0C055AE16AAAC /* UIImageExtension.swift */; };
 		7EC11EE8A165F1F7EA2479841D429FAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		8BDFF5098CC57DEBFC68271C12062F48 /* CGSizeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6997C14C8CB12CA871AA5F80973264E4 /* CGSizeExtension.swift */; };
-		9ECEC4BA2F7C7AD0238EFAB8E4E9CC17 /* Pods-Cassette-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA395D965300F063B8193B40B7087228 /* Pods-Cassette-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4EB7B1FA5AE5901039374A35C7619D5 /* Gifu.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B1DDE45D68BEB8B49C868AD84FEEF9D /* Gifu.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA659FA7E54747F444E8E166AF8A9E07 /* Gifu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 458C88D4BEC1A8EA5335666C48B2BB50 /* Gifu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BDFF5098CC57DEBFC68271C12062F48 /* CGSizeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB83894D76114AF04FE258BC92902585 /* CGSizeExtension.swift */; };
+		955C866DD42AC3D24B45C1BE61B6C6E7 /* AudioPlayerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E132D1E60F6C20FCD39DB59C670B5FDF /* AudioPlayerSwift-dummy.m */; };
+		C877B7DAF9FA51F1A5F22A7B70B1EE7E /* Pods-Cassette-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA395D965300F063B8193B40B7087228 /* Pods-Cassette-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4EB7B1FA5AE5901039374A35C7619D5 /* Gifu.h in Headers */ = {isa = PBXBuildFile; fileRef = 340CC6F52046306CF343AD5AA5B73353 /* Gifu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5AE3D00F2EF95B62093125E99E85EB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		FA659FA7E54747F444E8E166AF8A9E07 /* Gifu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE0E3A496EEC10365214A7CAE153C61C /* Gifu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFDCB0094F0B39BB96E6BABCFA448F5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F1C7EA80477AC3707E12BD4016BE77EA /* PBXContainerItemProxy */ = {
+		18B7CF4AE894F521B07E991F48F527E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C81656A7FC1B3BAF0103945517D83B5B;
+			remoteInfo = AudioPlayerSwift;
+		};
+		B54857ECDC4FA51D4EAFF1B43916C46D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -34,34 +45,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B1DDE45D68BEB8B49C868AD84FEEF9D /* Gifu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Gifu.h; path = Source/Gifu.h; sourceTree = "<group>"; };
+		0BF6F98833F7A064BC1950D6D29B5A7C /* AnimatedFrame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedFrame.swift; path = Source/AnimatedFrame.swift; sourceTree = "<group>"; };
+		1411E4F73D9077F688857782658AD2F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16982E0A99CEEF88A73C057A9C1BD86A /* Pods-Cassette-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cassette-dummy.m"; sourceTree = "<group>"; };
-		32920A686024D89EA38A055B233D7BB2 /* Gifu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gifu.xcconfig; sourceTree = "<group>"; };
+		1DB5D4860A6A6C5EC765F32508C98999 /* AudioPlayerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AudioPlayerSwift.xcconfig; sourceTree = "<group>"; };
+		1E7007EF059D3E9EC3E6ECC06B8A0E97 /* Gifu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gifu.xcconfig; sourceTree = "<group>"; };
+		221BDA6FB407E0058648787EAF19979E /* AudioPlayerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AudioPlayerSwift-umbrella.h"; sourceTree = "<group>"; };
+		24ADBEAA5E9C9D1B257803108F6EE420 /* Gifu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Gifu.modulemap; sourceTree = "<group>"; };
+		2A1D50CCDFB76EFE2129950AB8E7BF16 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		340CC6F52046306CF343AD5AA5B73353 /* Gifu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Gifu.h; path = Source/Gifu.h; sourceTree = "<group>"; };
 		355D71E92F43B08077F696C64888DD9C /* Pods-Cassette-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cassette-frameworks.sh"; sourceTree = "<group>"; };
-		3E684883ABC9E64101D054F5FD2963E0 /* UIImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageExtension.swift; path = Source/UIImageExtension.swift; sourceTree = "<group>"; };
-		458C88D4BEC1A8EA5335666C48B2BB50 /* Gifu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gifu-umbrella.h"; sourceTree = "<group>"; };
+		3DA43261EC766749CAC3AB4B48B27A0D /* AnimatableImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableImageView.swift; path = Source/AnimatableImageView.swift; sourceTree = "<group>"; };
 		493D66EDDEE275812B77A537B0E3B933 /* Pods-Cassette.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cassette.release.xcconfig"; sourceTree = "<group>"; };
 		4ECE45089C228190236925FB646EAE61 /* Pods-Cassette-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cassette-acknowledgements.plist"; sourceTree = "<group>"; };
-		5DAB3A4455F270790AB07680B93A26AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DEC3A21D864FB6B5D9B4D831B7D9AA4 /* ImageSourceHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageSourceHelpers.swift; path = Source/ImageSourceHelpers.swift; sourceTree = "<group>"; };
+		5900D64F44117A6D86F0C055AE16AAAC /* UIImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageExtension.swift; path = Source/UIImageExtension.swift; sourceTree = "<group>"; };
 		6162DB8156553A6D4C432E31E570DE9A /* Pods-Cassette-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cassette-resources.sh"; sourceTree = "<group>"; };
-		648BAC27B9656E2ED493D48CA63837F0 /* ArrayExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayExtension.swift; path = Source/ArrayExtension.swift; sourceTree = "<group>"; };
-		6997C14C8CB12CA871AA5F80973264E4 /* CGSizeExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGSizeExtension.swift; path = Source/CGSizeExtension.swift; sourceTree = "<group>"; };
-		8EB723F5CD7999E883AF486DFCC1877F /* AnimatableImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableImageView.swift; path = Source/AnimatableImageView.swift; sourceTree = "<group>"; };
+		725E11DF52F22E340E115A6D4A7BEF38 /* AudioPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioPlayer.swift; path = Source/AudioPlayer.swift; sourceTree = "<group>"; };
+		75B1FE9AA7EC965B3617951EEF1E2F09 /* Pods_Cassette.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cassette.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76256E14278EE3E9278B0A0AC93636B7 /* Gifu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Gifu-dummy.m"; sourceTree = "<group>"; };
+		7E17BCFFB60C09982694976791FC2AE2 /* ArrayExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayExtension.swift; path = Source/ArrayExtension.swift; sourceTree = "<group>"; };
 		9291B20FA7B287C29E16D809B174C3D8 /* Pods-Cassette.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cassette.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93B5350081FF2C9D9915B000387ED806 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F75AECBAFEA35637458560A3D88EB31 /* Pods_Cassette.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cassette.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A95DDB16CBDB0526859FB445BFAC311E /* Gifu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gifu-prefix.pch"; sourceTree = "<group>"; };
+		9D60019364238759439D80F614CC85A4 /* Gifu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gifu-prefix.pch"; sourceTree = "<group>"; };
+		A385E3616D0BF88C0BC6DE02BFFEC02F /* Gifu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gifu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4AD2F324C64F59204064ACE00CCA964 /* AudioPlayerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AudioPlayerSwift-prefix.pch"; sourceTree = "<group>"; };
 		BA395D965300F063B8193B40B7087228 /* Pods-Cassette-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cassette-umbrella.h"; sourceTree = "<group>"; };
-		BE0F45158982D5548BFE362F052150A8 /* Gifu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gifu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD90084FBBD51496B47F080F70A33C74 /* Gifu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Gifu-dummy.m"; sourceTree = "<group>"; };
+		CB83894D76114AF04FE258BC92902585 /* CGSizeExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGSizeExtension.swift; path = Source/CGSizeExtension.swift; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D7610356F9DE3B962F0DBC97CA513D48 /* Gifu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Gifu.modulemap; sourceTree = "<group>"; };
 		D9E23E964F7EB40BF501BCB0ADA0DE0E /* Pods-Cassette.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Cassette.modulemap"; sourceTree = "<group>"; };
+		DC4E7FD4543A2E49E9A9EF028EA6E022 /* AudioPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AudioPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E132D1E60F6C20FCD39DB59C670B5FDF /* AudioPlayerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AudioPlayerSwift-dummy.m"; sourceTree = "<group>"; };
 		E3DD2C33720376657E7F54CE6BA4E01F /* Pods-Cassette-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cassette-acknowledgements.markdown"; sourceTree = "<group>"; };
-		ECA8C4D8ED7F3F53921209B8171CB461 /* Animator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animator.swift; path = Source/Animator.swift; sourceTree = "<group>"; };
-		F90C2F6D0681EAA36C035865BFDA9AB2 /* AnimatedFrame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedFrame.swift; path = Source/AnimatedFrame.swift; sourceTree = "<group>"; };
+		E4EC05887C5722EC23F0D8F4AFC238CF /* AudioPlayerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AudioPlayerSwift.modulemap; sourceTree = "<group>"; };
+		EC6B55B816373C9C60E59A08E0CA4DE9 /* ImageSourceHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageSourceHelpers.swift; path = Source/ImageSourceHelpers.swift; sourceTree = "<group>"; };
+		EE0E3A496EEC10365214A7CAE153C61C /* Gifu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gifu-umbrella.h"; sourceTree = "<group>"; };
+		F87771F8725FF3DEF06D5BF43D5F0993 /* Animator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animator.swift; path = Source/Animator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,11 +92,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D14D9007FEC9D739390AC910ECC20D7 /* Frameworks */ = {
+		C73DD7F5D32EFFF5C19A6BC29FB5C90C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E27C4FCAC3D70A2F74C638C3A8D17F4 /* Foundation.framework in Frameworks */,
+				FFDCB0094F0B39BB96E6BABCFA448F5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E524F4F733A5B48F2CAEBBA0ED35AEB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5AE3D00F2EF95B62093125E99E85EB5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,20 +129,13 @@
 			path = "Target Support Files/Pods-Cassette";
 			sourceTree = "<group>";
 		};
-		2A03C07DA295B465A359A0A84F37DA03 /* Gifu */ = {
+		3ACF5F259C820CCBC92C5286F880BC1B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8EB723F5CD7999E883AF486DFCC1877F /* AnimatableImageView.swift */,
-				F90C2F6D0681EAA36C035865BFDA9AB2 /* AnimatedFrame.swift */,
-				ECA8C4D8ED7F3F53921209B8171CB461 /* Animator.swift */,
-				648BAC27B9656E2ED493D48CA63837F0 /* ArrayExtension.swift */,
-				6997C14C8CB12CA871AA5F80973264E4 /* CGSizeExtension.swift */,
-				0B1DDE45D68BEB8B49C868AD84FEEF9D /* Gifu.h */,
-				5DEC3A21D864FB6B5D9B4D831B7D9AA4 /* ImageSourceHelpers.swift */,
-				3E684883ABC9E64101D054F5FD2963E0 /* UIImageExtension.swift */,
-				A9B8D578705E2A620970D4D2FBDF2418 /* Support Files */,
+				6DD85F541CCCC819F809B80300654972 /* AudioPlayerSwift */,
+				9ABB5FA82EA6D6DDA0B0F6C14E525110 /* Gifu */,
 			);
-			path = Gifu;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
@@ -126,15 +146,54 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		6DD85F541CCCC819F809B80300654972 /* AudioPlayerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				725E11DF52F22E340E115A6D4A7BEF38 /* AudioPlayer.swift */,
+				EE04C19F49830C5D5516835F64944090 /* Support Files */,
+			);
+			path = AudioPlayerSwift;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				B98F4CDEA3EFDF4564B02EC9FF23DD37 /* Pods */,
-				D0B3AB19442D4C7E3B4457CEA4F1C953 /* Products */,
+				3ACF5F259C820CCBC92C5286F880BC1B /* Pods */,
+				D9F7AFC9517E7DFB50CF78C9BF1069DD /* Products */,
 				9B3E5D2B66A62582394C1EB570789E85 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8632662B5FC5B3B3AFD094948AF4E6DD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24ADBEAA5E9C9D1B257803108F6EE420 /* Gifu.modulemap */,
+				1E7007EF059D3E9EC3E6ECC06B8A0E97 /* Gifu.xcconfig */,
+				76256E14278EE3E9278B0A0AC93636B7 /* Gifu-dummy.m */,
+				9D60019364238759439D80F614CC85A4 /* Gifu-prefix.pch */,
+				EE0E3A496EEC10365214A7CAE153C61C /* Gifu-umbrella.h */,
+				2A1D50CCDFB76EFE2129950AB8E7BF16 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Gifu";
+			sourceTree = "<group>";
+		};
+		9ABB5FA82EA6D6DDA0B0F6C14E525110 /* Gifu */ = {
+			isa = PBXGroup;
+			children = (
+				3DA43261EC766749CAC3AB4B48B27A0D /* AnimatableImageView.swift */,
+				0BF6F98833F7A064BC1950D6D29B5A7C /* AnimatedFrame.swift */,
+				F87771F8725FF3DEF06D5BF43D5F0993 /* Animator.swift */,
+				7E17BCFFB60C09982694976791FC2AE2 /* ArrayExtension.swift */,
+				CB83894D76114AF04FE258BC92902585 /* CGSizeExtension.swift */,
+				340CC6F52046306CF343AD5AA5B73353 /* Gifu.h */,
+				EC6B55B816373C9C60E59A08E0CA4DE9 /* ImageSourceHelpers.swift */,
+				5900D64F44117A6D86F0C055AE16AAAC /* UIImageExtension.swift */,
+				8632662B5FC5B3B3AFD094948AF4E6DD /* Support Files */,
+			);
+			path = Gifu;
 			sourceTree = "<group>";
 		};
 		9B3E5D2B66A62582394C1EB570789E85 /* Targets Support Files */ = {
@@ -145,28 +204,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A9B8D578705E2A620970D4D2FBDF2418 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D7610356F9DE3B962F0DBC97CA513D48 /* Gifu.modulemap */,
-				32920A686024D89EA38A055B233D7BB2 /* Gifu.xcconfig */,
-				CD90084FBBD51496B47F080F70A33C74 /* Gifu-dummy.m */,
-				A95DDB16CBDB0526859FB445BFAC311E /* Gifu-prefix.pch */,
-				458C88D4BEC1A8EA5335666C48B2BB50 /* Gifu-umbrella.h */,
-				5DAB3A4455F270790AB07680B93A26AB /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Gifu";
-			sourceTree = "<group>";
-		};
-		B98F4CDEA3EFDF4564B02EC9FF23DD37 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2A03C07DA295B465A359A0A84F37DA03 /* Gifu */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,13 +212,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D0B3AB19442D4C7E3B4457CEA4F1C953 /* Products */ = {
+		D9F7AFC9517E7DFB50CF78C9BF1069DD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BE0F45158982D5548BFE362F052150A8 /* Gifu.framework */,
-				9F75AECBAFEA35637458560A3D88EB31 /* Pods_Cassette.framework */,
+				DC4E7FD4543A2E49E9A9EF028EA6E022 /* AudioPlayer.framework */,
+				A385E3616D0BF88C0BC6DE02BFFEC02F /* Gifu.framework */,
+				75B1FE9AA7EC965B3617951EEF1E2F09 /* Pods_Cassette.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EE04C19F49830C5D5516835F64944090 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4EC05887C5722EC23F0D8F4AFC238CF /* AudioPlayerSwift.modulemap */,
+				1DB5D4860A6A6C5EC765F32508C98999 /* AudioPlayerSwift.xcconfig */,
+				E132D1E60F6C20FCD39DB59C670B5FDF /* AudioPlayerSwift-dummy.m */,
+				A4AD2F324C64F59204064ACE00CCA964 /* AudioPlayerSwift-prefix.pch */,
+				221BDA6FB407E0058648787EAF19979E /* AudioPlayerSwift-umbrella.h */,
+				1411E4F73D9077F688857782658AD2F2 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AudioPlayerSwift";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,11 +248,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB8329879F8D051EAC1CBC3E26B8BF31 /* Headers */ = {
+		84CB01A3129D919BB0F04FB3AD2E623C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ECEC4BA2F7C7AD0238EFAB8E4E9CC17 /* Pods-Cassette-umbrella.h in Headers */,
+				C877B7DAF9FA51F1A5F22A7B70B1EE7E /* Pods-Cassette-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49136B02CF36BC303C4489514516131 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3FE52125AB28F5A1374A473EDFFF39 /* AudioPlayerSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,25 +281,43 @@
 			);
 			name = Gifu;
 			productName = Gifu;
-			productReference = BE0F45158982D5548BFE362F052150A8 /* Gifu.framework */;
+			productReference = A385E3616D0BF88C0BC6DE02BFFEC02F /* Gifu.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CDFFCC851A8BECB86C81C202DEEC6473 /* Pods-Cassette */ = {
+		BCD6378627210C3C2C6E43A669B8DCF9 /* Pods-Cassette */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A29349D3A4FBA5B75FDCA869379F81D /* Build configuration list for PBXNativeTarget "Pods-Cassette" */;
+			buildConfigurationList = EA80BB27EE4B9338F29491C5D6698DFB /* Build configuration list for PBXNativeTarget "Pods-Cassette" */;
 			buildPhases = (
-				26B0CBDFD585D51A1CDAA595EF8BE78F /* Sources */,
-				2D14D9007FEC9D739390AC910ECC20D7 /* Frameworks */,
-				CB8329879F8D051EAC1CBC3E26B8BF31 /* Headers */,
+				7A47EF9086D443AD21B6CDEEE9725FB8 /* Sources */,
+				C73DD7F5D32EFFF5C19A6BC29FB5C90C /* Frameworks */,
+				84CB01A3129D919BB0F04FB3AD2E623C /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C55651AD33FD37F644EDB37AC4DF1F50 /* PBXTargetDependency */,
+				005A608CAE4FDC02D40FA6E79A82BE4C /* PBXTargetDependency */,
+				0C6E439F790B16059AD39AFDC3CFA2A7 /* PBXTargetDependency */,
 			);
 			name = "Pods-Cassette";
 			productName = "Pods-Cassette";
-			productReference = 9F75AECBAFEA35637458560A3D88EB31 /* Pods_Cassette.framework */;
+			productReference = 75B1FE9AA7EC965B3617951EEF1E2F09 /* Pods_Cassette.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C81656A7FC1B3BAF0103945517D83B5B /* AudioPlayerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1A1110EE1BBB92581615548122A13C /* Build configuration list for PBXNativeTarget "AudioPlayerSwift" */;
+			buildPhases = (
+				6DEFA27067FD2272472234718EE5A0E7 /* Sources */,
+				E524F4F733A5B48F2CAEBBA0ED35AEB5 /* Frameworks */,
+				D49136B02CF36BC303C4489514516131 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioPlayerSwift;
+			productName = AudioPlayerSwift;
+			productReference = DC4E7FD4543A2E49E9A9EF028EA6E022 /* AudioPlayer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -254,7 +332,10 @@
 					0C8FAD2805C50D7037E7C082D3A5014F = {
 						LastSwiftMigration = 0800;
 					};
-					CDFFCC851A8BECB86C81C202DEEC6473 = {
+					BCD6378627210C3C2C6E43A669B8DCF9 = {
+						LastSwiftMigration = 0800;
+					};
+					C81656A7FC1B3BAF0103945517D83B5B = {
 						LastSwiftMigration = 0800;
 					};
 				};
@@ -267,25 +348,18 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D0B3AB19442D4C7E3B4457CEA4F1C953 /* Products */;
+			productRefGroup = D9F7AFC9517E7DFB50CF78C9BF1069DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				C81656A7FC1B3BAF0103945517D83B5B /* AudioPlayerSwift */,
 				0C8FAD2805C50D7037E7C082D3A5014F /* Gifu */,
-				CDFFCC851A8BECB86C81C202DEEC6473 /* Pods-Cassette */,
+				BCD6378627210C3C2C6E43A669B8DCF9 /* Pods-Cassette */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		26B0CBDFD585D51A1CDAA595EF8BE78F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0975EE320E2004A91885AD2715035D08 /* Pods-Cassette-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		459929D9906C80746E0C48BA5E01A0F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -301,51 +375,71 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6DEFA27067FD2272472234718EE5A0E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE83F5F0FCD7C9D90409DCF34E8D86B /* AudioPlayer.swift in Sources */,
+				955C866DD42AC3D24B45C1BE61B6C6E7 /* AudioPlayerSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A47EF9086D443AD21B6CDEEE9725FB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EEACB7981E66A683F1C69582A044D9 /* Pods-Cassette-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C55651AD33FD37F644EDB37AC4DF1F50 /* PBXTargetDependency */ = {
+		005A608CAE4FDC02D40FA6E79A82BE4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AudioPlayerSwift;
+			target = C81656A7FC1B3BAF0103945517D83B5B /* AudioPlayerSwift */;
+			targetProxy = 18B7CF4AE894F521B07E991F48F527E1 /* PBXContainerItemProxy */;
+		};
+		0C6E439F790B16059AD39AFDC3CFA2A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Gifu;
 			target = 0C8FAD2805C50D7037E7C082D3A5014F /* Gifu */;
-			targetProxy = F1C7EA80477AC3707E12BD4016BE77EA /* PBXContainerItemProxy */;
+			targetProxy = B54857ECDC4FA51D4EAFF1B43916C46D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		24DDD1EEB4011556074B2DAF6E37698B /* Release */ = {
+		09D0FE02890F80594C89F772A2FCCF74 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 493D66EDDEE275812B77A537B0E3B933 /* Pods-Cassette.release.xcconfig */;
+			baseConfigurationReference = 1DB5D4860A6A6C5EC765F32508C98999 /* AudioPlayerSwift.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Cassette/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/AudioPlayerSwift/AudioPlayerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AudioPlayerSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Cassette/Pods-Cassette.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Cassette;
+				MODULEMAP_FILE = "Target Support Files/AudioPlayerSwift/AudioPlayerSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AudioPlayer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		42287DDF97330524BA3EF220F0276DA6 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -385,9 +479,39 @@
 			};
 			name = Release;
 		};
+		456868B504FD465EBA1EE9F367E7F53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DB5D4860A6A6C5EC765F32508C98999 /* AudioPlayerSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AudioPlayerSwift/AudioPlayerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AudioPlayerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AudioPlayerSwift/AudioPlayerSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AudioPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		5A2800CA2ABC3BF64D0074092FE57EDD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32920A686024D89EA38A055B233D7BB2 /* Gifu.xcconfig */;
+			baseConfigurationReference = 1E7007EF059D3E9EC3E6ECC06B8A0E97 /* Gifu.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -406,6 +530,40 @@
 				MODULEMAP_FILE = "Target Support Files/Gifu/Gifu.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = Gifu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C75DAC997A109F397C159338FA19CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 493D66EDDEE275812B77A537B0E3B933 /* Pods-Cassette.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Cassette/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cassette/Pods-Cassette.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Cassette;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -457,38 +615,7 @@
 			};
 			name = Debug;
 		};
-		AFCA6C822DD7D05F8BE4467D6E7B4598 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32920A686024D89EA38A055B233D7BB2 /* Gifu.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Gifu/Gifu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Gifu/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Gifu/Gifu.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Gifu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E801FD78E4CF8440DC6F06D1DE1F9BB4 /* Debug */ = {
+		AFBF2594FC247B4A9D82C2EFAFF74E1C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9291B20FA7B287C29E16D809B174C3D8 /* Pods-Cassette.debug.xcconfig */;
 			buildSettings = {
@@ -523,18 +650,40 @@
 			};
 			name = Debug;
 		};
+		AFCA6C822DD7D05F8BE4467D6E7B4598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E7007EF059D3E9EC3E6ECC06B8A0E97 /* Gifu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Gifu/Gifu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Gifu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Gifu/Gifu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Gifu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A29349D3A4FBA5B75FDCA869379F81D /* Build configuration list for PBXNativeTarget "Pods-Cassette" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E801FD78E4CF8440DC6F06D1DE1F9BB4 /* Debug */,
-				24DDD1EEB4011556074B2DAF6E37698B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -549,6 +698,24 @@
 			buildConfigurations = (
 				AFCA6C822DD7D05F8BE4467D6E7B4598 /* Debug */,
 				5A2800CA2ABC3BF64D0074092FE57EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA80BB27EE4B9338F29491C5D6698DFB /* Build configuration list for PBXNativeTarget "Pods-Cassette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFBF2594FC247B4A9D82C2EFAFF74E1C /* Debug */,
+				9C75DAC997A109F397C159338FA19CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1A1110EE1BBB92581615548122A13C /* Build configuration list for PBXNativeTarget "AudioPlayerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09D0FE02890F80594C89F772A2FCCF74 /* Debug */,
+				456868B504FD465EBA1EE9F367E7F53A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

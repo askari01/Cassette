@@ -39,7 +39,7 @@ class Animator {
   /// - seealso: `needsPrescaling` in AnimatableImageView.
   var needsPrescaling = true
   /// Dispatch queue used for preloading images. DispatchQueue(label: "co.kaishin.Gifu.preloadQueue", attributes: [])
-    fileprivate var preloadFrameQueue = DispatchQueue(label: "co.kaishin.Gifu.preloadQueue",qos: .background , attributes: [])
+    fileprivate var preloadFrameQueue = DispatchQueue(label: "co.kaishin.Gifu.preloadQueue",qos: .userInteractive , attributes: [])
   /// The current image frame to show.
   var currentFrameImage: UIImage? {
     return frameAtIndex(currentFrameIndex)

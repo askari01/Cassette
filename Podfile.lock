@@ -1,12 +1,15 @@
 PODS:
+  - AudioPlayerSwift (1.4.0)
   - Gifu (1.2.1)
 
 DEPENDENCIES:
+  - AudioPlayerSwift
   - Gifu
 
 SPEC CHECKSUMS:
+  AudioPlayerSwift: 3c2172ae5e0e6d17dcb886c79c04cae57d293076
   Gifu: 0eab1ca24a4adbd949338bcb71a8556748cb2d28
 
-PODFILE CHECKSUM: ca8afa0617a54d60b496e38bfe593ba3222b6d21
+PODFILE CHECKSUM: 901cbe71dee5f401f04c73147876176ffdcc9ada
 
 COCOAPODS: 1.0.1
